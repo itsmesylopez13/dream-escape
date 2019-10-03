@@ -1,0 +1,308 @@
+/*
+Theme Name: Dreamscape Exan
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/ 
+p.social a {
+    color: white;
+    background-color: #2e2e2e;
+ 
+}
+p.social {
+    background-color: #2e2e2e;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+ body {
+ 	margin:0;
+ }
+ body *{
+ 	 font-family: 'Poppins';
+ }
+ h3{
+ 	font-size:45px;
+ }
+p{
+	font-size:14px;
+}
+h5{
+	text-align:center;
+	font-size:20px;
+}
+article {
+    width: 1140px;
+    margin: auto;
+}
+figure{
+	text-align: center;
+}
+ /* header */
+ header, footer {
+    width: 100%;
+    background-color: #212121;
+ 
+}
+header{
+      display: flex;
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    padding: 0px 100px;
+    z-index: 999999999999999;
+}
+.nav {
+    width: 1140px;
+    margin: auto;
+    padding: 20px 0px;
+}
+figure.logo-container {
+    margin: 0 auto 0 0;
+    text-align: center;
+        display: flex;
+    align-items: center;
+}
+figure.logo-container img {
+    width: 240px;
+    height: auto;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info p {
+    margin: 0px 10px;
+    color:white;
+}
+
+button.btn {
+    color: #fff;
+}
+button.btn {
+    background-color: #ff6b6b;
+    padding: 18px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.btn:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #dc4343;
+}
+.carousel-item h3, .carousel-item p {
+    color: white;
+}
+.nav p {
+    font-size: 14px;
+}
+/*end header */
+
+/* slider */
+.carousel-item p {
+    font-size: 20px;
+    margin: 50px 0px;
+}
+.carousel-item h3 {
+    font-size: 60px;
+    font-weight:bold;
+}
+.first-slide{
+background-image:url("https://itsmesylopez13.github.io/dream-escape/wp-content/themes/img/slider/Image 1.png");
+}
+.second-slide{
+background-image:url("https://itsmesylopez13.github.io/dream-escape/wp-content/themes/img/slider/Image 2.png");
+}
+.third-slide{
+background-image:url("https://itsmesylopez13.github.io/dream-escape/wp-content/themes/img/slider/Image 3.png");
+}
+.carousel-item {
+    padding: 220px 0px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.carousel-indicators li {
+ 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* end slider */
+/* Featured Tours */
+.title h3{
+	text-align:center;
+}
+.sub-title h5{
+	color:#9b9b9b;
+
+}
+
+.featured-tours-section, .why-us, .our-partners, section.testimonials{
+	padding:75px 0px;
+	width:100%;
+}
+
+.featured-tools-item .item {
+    width: 100%;
+ 
+}
+
+.featured-tools-item {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 2%;
+        margin-top: 30px;
+}
+
+.featured-tools-item .item img {
+    width: 100%;
+}
+
+.featured-tools-item .item h5 {
+    font-size: 20px;
+    margin-top:10px;
+}
+
+.featured-tools-item .item p, .item p {
+    text-align: center;
+    color: #9b9b9b;
+}
+/* END */
+/* why us */
+.why-us-content {
+    display: grid;
+    grid-template-columns: 31.333% 31.333% 31.333%;
+    grid-column-gap: 2%;
+        margin-top: 30px;
+}
+
+.why-us-content .item {
+    width: 100%;
+}
+/* end */
+/* best tours */
+.best-tours p, .best-tours h3{
+	text-align: center;
+	color:#fff;
+}
+
+.best-tours{
+	padding:150px 0px;
+	width:100%;
+	background-image:url("https://itsmesylopez13.github.io/dream-escape/wp-content/themes/img/logo/bg.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+/* end */
+
+/* partner */
+
+.partners-list {
+    display: grid;
+    grid-template-columns: 14.666% 14.666% 14.666% 14.6666% 14.6666% 14.666%;
+    grid-column-gap: 2%;
+}
+
+.list {
+	margin-top:10px;
+    width: 100%;
+
+}
+/* end */
+/* testimonial */
+
+.testimonial-list {
+    display: grid;
+    grid-template-columns: 26.333% 26.333% 26.333%;
+    grid-column-gap: 7%;
+    margin-top:30px;
+}
+
+.testimonial-list .list {
+    display: flex;
+}
+
+.details {
+    padding: 0px 10px;
+}
+
+.name{
+	color:#9b9b9b;
+}
+footer{
+	padding:20px 0px;
+}
+article.footer-content {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    margin: 0px 20px;
+}
+
+
+p.social a {
+    color: white;
+    background-color: #2e2e2e;
+ 
+}
+p.social {
+    background-color: #2e2e2e;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* modal */
+
+
+
+.modal-header {
+    background-color: black;
+}
+.modal-title{
+    color:white;
+}
+button.btn.submit {
+    padding: 10px 80px;
+}
+/* end */
+/* media query */
+@media(max-width:1250px){
+.nav {
+    width: 100%;
+    padding: 20px 20px;
+}
+article{
+	width:100%;
+	padding:0px 20px;
+}
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 500px;
+    margin: 16.75rem auto !important;
+}
+}
